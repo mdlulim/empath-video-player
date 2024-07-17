@@ -15,16 +15,16 @@ const videos = [
     url: 'http://www.youtube.com/embed/OzY2r2JXsDM',
     title: 'Sample Youtube Video'
   },
-  // {
-  //   source: 'vimeo',
-  //   url: 'http://vimeo.com/655102517',
-  //   title: 'Sample Vimeo Video'
-  // },
-  // {
-  //   source: 'Cloudflare',
-  //   url: 'http://customer-pbkwsh8u7tv1cfs9.cloudflarestream.com/e596a638932d72bd0ca2b645902513a7',
-  //   title: 'Sample Cloudflare Video'
-  // }
+  {
+    source: 'vimeo',
+    url: 'http://vimeo.com/655102517',
+    title: 'Sample Vimeo Video'
+  },
+  {
+    source: 'Cloudflare',
+    url: 'http://customer-pbkwsh8u7tv1cfs9.cloudflarestream.com/e596a638932d72bd0ca2b645902513a7',
+    title: 'Sample Cloudflare Video'
+  }
 ];
 
 app.get('/video', (req, res) => {
